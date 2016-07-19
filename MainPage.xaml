@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="BookingApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookingApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-1112,-120,-1206,-117">
+        <Button x:Name="SubmitButton" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Height="175" Width="399" FontSize="20" Click="SubmitButton_Click"/>
+
+    </Grid>
+</Page>
